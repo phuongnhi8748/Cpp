@@ -21,7 +21,6 @@ class Set
 		void InsertHead(int);
 		void InsertTail(int);
 		void DelHead();
-		void DelAfter(pNode&);
 		void operator+ (int x);
         void operator- (int x);
         const Set operator+ (const Set &X);
